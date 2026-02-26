@@ -1,0 +1,27 @@
+{
+  "name": "my-crud",
+  "version": "1.0.0",
+  "description": "this is my crud",
+  "keywords": [
+    "crud"
+  ],
+  "license": "ISC",
+  "author": "misbah zulfiqar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.2"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^3.1.14",
+    "npm": "^11.10.1"
+  }
+}
